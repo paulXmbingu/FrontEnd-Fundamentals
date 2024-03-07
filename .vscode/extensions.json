@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "formulahendry.code-runner",
+        "figma.figma-vscode-extension",
+        "guodongsun.vscode-git-cruise",
+        "ritwickdey.liveserver",
+        "pkief.material-icon-theme"
+    ]
+}
