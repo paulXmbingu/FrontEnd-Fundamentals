@@ -57,57 +57,165 @@
         </article>
 
         <form>
-            <button onclick="alert('Are you sure you want to continue')">
-                <img src="https://images.unsplash.com/photo-1627630737366-fbd46d8c11f5?q=80&w=3269&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="submit the form" height="64" width="64">
-            </button>
-
-
-            <input type="checkbox" name="Dog" id="Dog" value="Dog">
-            <label for="Dog"> I like Dogs </label>
-
-            <input type="checkbox" name="Cat" id="Cat" value="Cat">
-            <label for="Cat">I like Cats</label>
+            <div>
+                <button onclick="alert('Are you sure you want to continue')">
+                    <img src="https://images.unsplash.com/photo-1627630737366-fbd46d8c11f5?q=80&w=3269&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="submit the form" height="64" width="64">
+                </button>                
+            </div>
 
 
 
-            <input type="radio" name="theme" id="light" value="Light">
-            <label for="ight"> Light</label>
+            <div>
+                <input type="checkbox" name="Dog" id="Dog" value="Dog">
+                <label for="Dog"> I like Dogs </label>
 
-            <input type="radio" name="theme" id="dark" value="Dark">
-            <label for="dark"> Dark </label>
-
-
-
-            <input type="text" name="fname" id="fname">
-            <label for="fname">First Name</label>
+                <input type="checkbox" name="Cat" id="Cat" value="Cat">
+                <label for="Cat">I like Cats</label>            
+            </div>
 
 
 
+            <div>
+                <input type="radio" name="theme" id="light" value="Light">
+                <label for="ight"> Light</label>
 
-            <input type="password" name="pwd" id="pwd">
-            <label for="pwd">Password</label>
+                <input type="radio" name="theme" id="dark" value="Dark">
+                <label for="dark"> Dark </label>             
+            </div>
 
+
+
+            <div>
+                <input type="text" name="fname" id="fname">
+                <label for="fname">First Name</label>
+            </div>
+
+
+
+
+            <div>
+                <input type="password" name="pwd" id="pwd">
+                <label for="pwd">Password</label>               
+            </div>
+
+
+
+
+            <div>
+                <input type="date" name="date of birth" id="dob">
+                <label for="dob">Date of Birth:</label>                
+            </div>
 
        
-            <input type="date" name="date of birth" id="dob">
-            <label for="dob">Date of Birth:</label>
-            
 
 
-            <input type="datetime-local" name="birthdaytime" id="birthdaytime">
-            <label for="birthdaytime"> Birth (date and time): </label>
-
-
-
-
-            <form action="myserver.com" method="post">
-
-                <input type="submit" value="Submit">
-
-            </form>
+            <div>
+                <input type="datetime-local" name="birthdaytime" id="birthdaytime">
+                <label for="birthdaytime"> Birth (date and time): </label>                
+            </div>
 
 
 
+            <div>
+                <input type="email" name="email" id="email">
+                <label for="email">Enter your Email</label>                
+            </div>
+
+
+
+
+            <div>
+                <input type="file" name="myfile" id="myfile">
+                <label for="myfile">Select a File:</label>                
+            </div>
+
+
+
+            <div>
+                <input type="hidden" name="custId" id="custId" value="3487">
+            </div>
+
+
+
+            <div>
+                <input type="image" src="Assets/Images/BoltShift-Social-Media-Card.png" alt="Submited image" width="48" height="48">
+            </div>
+
+
+
+            <div>
+                <input type="number" name="quantity" id="quantity" min="1" max="5">
+                <label for="quantity">Quantity(ies)</label>                
+            </div>
+
+
+
+            <div>
+                <input type="range" name="volume" id="volume" min="0" max="10">
+                <label for="volume"> Volume </label>                
+            </div>
+
+
+
+            <div>
+                <input type="search" name="gsearch" id="gsearch">
+                <label for="gsearch"> Search in Google</label>                
+            </div>
+
+
+
+
+            <div>
+                <input type="time" name="appt" id="appt">
+                <label for="appt">Select a time:</label>                
+            </div>
+
+
+
+            <div>
+                <input type="tel" name="phone" id="phone" pattern="[+] {254} [0-9] {11,14}">
+                <label for="phone">Enter your phone number</label>                
+            </div>
+
+
+
+
+            <div>
+                <input type="url" name="homepage" id="homepage">
+                <label for="homepage">Add your Homepage</label>                
+            </div>
+
+
+
+
+            <div>
+                <input type="week" name="week" id="week">
+                <label for="week">Select a week:</label>                
+            </div>
+
+
+
+
+            <div>
+                <input type="month" name="bdaymonth" id="bdaymonth" min="1930-01" value="2024-01">
+                <label for="bdaymonth">Birthday (month and year):</label>                
+            </div>
+
+
+
+
+            <div>
+                <form action="myserver.com" method="post">
+                    <input type="submit" value="Submit">
+                </form>         
+            </div>
+
+
+
+
+            <div>
+                <input type="reset">                
+            </div>
         </form>
 
     </main>
