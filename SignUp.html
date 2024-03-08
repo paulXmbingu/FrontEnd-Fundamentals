@@ -24,37 +24,43 @@
         <form>
             <div>
                 <label for="user_first_name">First Name</label> <br>
-                <input type="text" name="user_first_name" id="user_first_name">
+                <input type="text" name="user_first_name" id="user_first_name" required minlength="3" maxlength="12">
             </div>
+            <br>
 
             
             <div>
                 <label for="user_last_name">Last Name</label> <br>
-                <input type="text" name="user_last_name" id="user_last_name">
+                <input type="text" name="user_last_name" id="user_last_name" required minlength="3" maxlength="12">
             </div>
+            <br>
 
             
             <div>
                 <label for="user_email">Email</label> <br>
-                <input type="email" name="user_email" id="user_email">
+                <input type="email" name="user_email" id="user_email" required>
             </div>
+            <br>
 
             
             <div>
                 <label for="user_password">Password</label> <br>
-                <input type="password" name="user_password" id="user_password">
+                <input type="password" name="user_password" id="user_password" required minlength="5">
             </div>
+            <br>
 
             
             <div>
                 <label for="user_confirm_password">Confirm Password</label> <br>
-                <input type="password" name="user_confirm_password" id="user_confirm_password">
+                <input type="password" name="user_confirm_password" id="user_confirm_password" required>
             </div>
+            <br>
 
             
             <div>
                 <button type="submit">Sign Up</button>
             </div>
+            <br>
         </form>
 
     </main>
