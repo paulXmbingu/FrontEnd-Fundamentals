@@ -60,19 +60,16 @@
 
         <form>
             <div>
-                <button onclick="alert('Are you sure you want to continue')">
-                    <img src="https://images.unsplash.com/photo-1627630737366-fbd46d8c11f5?q=80&w=3269&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="submit the form" height="64" width="64">
-                </button>        
-            </div>
-            <br>
-
-
-
-            <div>
                 <fieldset>
-                    <input type="checkbox" name="Dog" id="Dog" value="Dog"> I like Dogs
+                    <label>
+                        <input type="checkbox" name="Dog" id="Dog" value="Dog"> I like Dogs
+                    </label>
                     <br>
-                    <input type="checkbox" name="Cat" id="Cat" value="Cat"> I like Cats                 
+
+                    <label>
+                        <input type="checkbox" name="Cat" id="Cat" value="Cat"> I like Cats
+                    </label>
+                    <br>
                 </fieldset>
             </div>
             <br>
@@ -80,10 +77,16 @@
 
 
             <div>
-                <fieldset id="light">
-                    <input type="radio" name="theme" id="light" value="Light"> Light
+                <fieldset>
+                    <label>
+                        <input type="radio" name="theme" id="light" value="Light"> Light
+                    </label>
                     <br>
-                    <input type="radio" name="theme" id="dark" value="Dark"> Dark
+
+                    <label>
+                        <input type="radio" name="theme" id="dark" value="Dark"> Dark
+                    </label>
+                    <br>
                 </fieldset>
                 
             </div>
@@ -208,8 +211,8 @@
 
 
             <div>
-                <input type="week" name="week" id="week"> <br>                               
-                <label for="week">Select a week:</label> 
+                <label for="week">Select a week:</label> <br>
+                <input type="week" name="week" id="week">                             
             </div>
             <br>
 
@@ -229,14 +232,6 @@
                 <form action="myserver.com" method="post">
                     <input type="submit" value="Submit">
                 </form>         
-            </div>
-            <br>
-
-
-
-
-            <div>
-                <input type="reset">                
             </div>
             <br>
         </form>

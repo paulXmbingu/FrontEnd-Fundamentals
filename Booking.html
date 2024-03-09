@@ -14,6 +14,40 @@
 
 <body>
     <main>
+        <h1>Book Hotel</h1>
+
+        <form action="" method="post">
+            <div>
+                <label for="booking_date"> Booking Date </label>
+                <br>
+                <input type="date" name="booking_date" id="booking_date">
+            </div>
+            <br>
+
+
+            <div>
+                <label for="booking_people"> No. of People </label>
+                <br>
+                <input type="range" name="booking_people" id="booking_people" min="1" max="10" value="4" oninput="this.nextElementSibling.value = this.value">
+                <output>4</output>
+            </div>
+            <br>
+
+            <div>
+                <label for="booking_location"> Location </label>
+                <br>
+                <input id="booking_location" name="booking_location" list="locations">
+                <datalist id="locations">
+                    <option value="Uptown"></option>
+                    <option value="Midtown"> Midtown</option>
+                    <option value="Downtown"></option>
+                </datalist>
+            </div>
+        </form>
+
+
+
+
         <h1> Book a Table </h1>
 
          <form action="" method="post">
