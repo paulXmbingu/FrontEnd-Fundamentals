@@ -4,6 +4,7 @@
         "figma.figma-vscode-extension",
         "guodongsun.vscode-git-cruise",
         "ritwickdey.liveserver",
-        "pkief.material-icon-theme"
+        "pkief.material-icon-theme",
+        "tomoki1207.pdf"
     ]
 }
