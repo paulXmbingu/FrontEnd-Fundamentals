@@ -1,0 +1,12 @@
+
+.box{
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+}
+
+
+.flex-container{
+    display: flex;
+}
