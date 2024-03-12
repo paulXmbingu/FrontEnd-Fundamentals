@@ -9,12 +9,14 @@
 
 
 .flex-container{
+    background-color:brown;
     display:flex;
     justify-content:center;
-    flex-direction:column;
+    /* flex-direction:column; */
     flex-wrap:wrap;
     align-items:flex-end;
     gap: 10px;
+    flex: 0 1 auto;
 }
 
 
@@ -22,4 +24,5 @@
 .box3{
     background-color: blanchedalmond;
     align-self: center;
+    flex: 1 1 auto;
 }
