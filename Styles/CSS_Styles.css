@@ -12,7 +12,6 @@
     background-color:brown;
     display:flex;
     justify-content:center;
-    /* flex-direction:column; */
     flex-wrap:wrap;
     align-items:flex-end;
     gap: 10px;
@@ -29,6 +28,8 @@
 
 
 .video{
-    border-radius: 16px;
-    overflow: hidden;
+    article {
+        border-radius: 20px;
+        overflow: hidden; 
+    }    
 }
