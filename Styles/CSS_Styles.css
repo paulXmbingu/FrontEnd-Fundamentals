@@ -26,3 +26,9 @@
     align-self: center;
     flex: 1 1 auto;
 }
+
+
+.video{
+    border-radius: 16px;
+    overflow: hidden;
+}
