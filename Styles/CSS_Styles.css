@@ -12,7 +12,6 @@
     background-color:brown;
     display:flex;
     justify-content:center;
-    /* flex-direction:column; */
     flex-wrap:wrap;
     align-items:flex-end;
     gap: 10px;
@@ -25,4 +24,12 @@
     background-color: blanchedalmond;
     align-self: center;
     flex: 1 1 auto;
+}
+
+
+.video{
+    article {
+        border-radius: 20px;
+        overflow: hidden; 
+    }    
 }
