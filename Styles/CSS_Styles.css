@@ -1,3 +1,8 @@
+body{
+    margin: 20px;
+}
+
+
 
 .box{
     background-color: #247;
@@ -6,11 +11,6 @@
     padding: 15px;
     border-radius: 10px;
     font-size: 150%;
-}
-
-
-body{
-    margin: 20px;
 }
 
 
