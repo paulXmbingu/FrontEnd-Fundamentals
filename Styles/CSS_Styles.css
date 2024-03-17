@@ -15,6 +15,16 @@ body{
 
 
 
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 10px;
+    background-color: rgb(202, 96, 96);
+}
+
+
+
 .flex-container{
     background-color:brown;
     display:flex;
