@@ -1,0 +1,18 @@
+#blog h1{
+    color: blue;
+} 
+
+
+#blog > h1{
+    color: blue;
+}
+
+
+h1 ~ p {
+    color: blue;
+}
+
+
+div + p {
+    color: blue;
+}
