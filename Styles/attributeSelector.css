@@ -1,0 +1,32 @@
+/* a[class] {
+    color: darkgreen;
+}
+
+
+
+a[href*="meta"] {
+    color: darkgreen;
+}
+
+
+
+a[href="https://about.meta.com/"] {
+    color: darkgreen;
+} */
+
+
+
+li:nth-of-child(odd) {
+  background-color: lightblue;
+}
+
+
+p:nth-of-type(odd){
+    background-color: brown;
+}
+
+
+
+*{
+    background-color: aqua;
+}
