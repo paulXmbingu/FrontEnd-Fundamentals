@@ -1,0 +1,36 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.text {
+    border: 2px solid brown;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+
+}
+
+
+.text :hover {
+    overflow: visible;
+}
+
+
+.vert{
+    writing-mode: vertical-lr;
+}
+
+
+.wrap{
+    word-wrap: break-word;
+}
+
+
+p{
+    width: 50px;
+    overflow: hidden;
+    border: 2px solid brown;
+    padding: 16px;
+}
