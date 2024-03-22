@@ -29,5 +29,6 @@
 .box:hover{
     transform: rotateZ(60deg);
     background-color: lightcoral;
-    
+    opacity: 50%;
+    transition: 2s;
 }
