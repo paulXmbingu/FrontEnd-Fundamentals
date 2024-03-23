@@ -1,0 +1,16 @@
+@keyframes myanimation {
+    from{ transform: rotate(0deg);}
+    to{ transform: rotate(360deg);}
+}
+
+
+
+.minutes {
+    animation: myanimation 6s infinite linear;
+}
+
+
+
+.hours {
+    animation: myanimation 60s infinite linear;
+}
