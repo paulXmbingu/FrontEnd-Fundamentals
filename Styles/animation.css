@@ -6,11 +6,13 @@
 
 
 .minutes {
+    background-color: black;
     animation: myanimation 6s infinite linear;
 }
 
 
 
 .hours {
+    background-color: black;
     animation: myanimation 60s infinite linear;
 }
