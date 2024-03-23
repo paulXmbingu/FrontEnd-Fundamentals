@@ -1,23 +1,16 @@
-/* @keyframes slidein {
-    from{color: blue;}
-    to{color: red;}
-} */
-
-
-
-.minute{
-    animation: cycle 6s infinite linear;
+@keyframes myanimation {
+    from{ transform: rotate(0deg);}
+    to{ transform: rotate(360deg);}
 }
 
 
 
-.hours{
-    animation: cycle 60s infinite linear;
+.minutes {
+    animation: myanimation 6s infinite linear;
 }
 
 
 
-@keyframes cycle {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}
+.hours {
+    animation: myanimation 60s infinite linear;
 }
