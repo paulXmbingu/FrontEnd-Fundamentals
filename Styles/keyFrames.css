@@ -31,8 +31,4 @@ body{
     height: 80px;
     border-radius: 50%;
     background-color: blueviolet;
-    
-    animation: bounce 2s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
 }
